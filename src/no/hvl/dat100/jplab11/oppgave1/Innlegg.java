@@ -66,6 +66,8 @@ public abstract class Innlegg {
 		return id == innlegg.id;
 	}
 	
+	public abstract String getTekst();
+	
 	@Override
 	public String toString() {
 		

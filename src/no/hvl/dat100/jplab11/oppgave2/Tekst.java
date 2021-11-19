@@ -21,9 +21,9 @@ public class Tekst extends Innlegg {
 		this.tekst = tekst;
 	}
 	
+	@Override
 	public String getTekst() {
 		return tekst;
-
 	}
 
 	public void setTekst(String tekst) {
